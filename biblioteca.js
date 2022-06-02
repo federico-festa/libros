@@ -10,21 +10,10 @@ function Libros(titulo, autor, paginas, isbn, genero, fecha, leido, sinopsis){
         libros.push(this);
 }
 
-let libros = [
-    {
-        titulo: 'A',
-        autor: 'A',
-        paginas: 1,
-        isbn: 1,
-        genero: 'A',
-        fecha: 1,
-        leido: true,
-        sinopsis: 'A',    
-    },
-];
+let libros = [];
 
 let libro1 = new Libros('Zona de clivaje', 'Liliana Heker', 150, 12, 'Novela', 2011, true, 'b');
-//let libro2 = new Libros('Devenir animal', 'David Abram', 350, 11, ['filosofia','ecologia'], 2021, true, 'a');
+let libro2 = new Libros('Devenir animal', 'David Abram', 350, 11, ['filosofia','ecologia'], 2021, true, 'a');
 
 module.exports = libros;
 
